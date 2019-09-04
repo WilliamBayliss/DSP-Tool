@@ -1,0 +1,1 @@
+A small tool I made to make some mundane calculations I have to do at work automated. It takes a number and returns a new sales goal with a 5% increase, and then uses that number to create a morning, afternoon, and evening sales goal. Also works with transaction goals as the math is the same.
