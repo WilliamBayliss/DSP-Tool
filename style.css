@@ -1,7 +1,7 @@
 html {
     font-family: 'Times New Roman', Times, serif;
     font-size: 30px;
-    background-color: lightgray;
+    background-color: rgb(240, 240, 240);
 }
 header {
     margin-top: 50px;
@@ -9,6 +9,10 @@ header {
 }
 body {
     text-align: center;
+}
+
+p {
+    font-size: 20px;
 }
 
 #content {
@@ -19,6 +23,17 @@ body {
     padding: 1px;
     margin: 0 auto;
     margin-bottom: 100px;
+}
+
+input {
+    border-radius: 5px;
+
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
 }
 
 table {
