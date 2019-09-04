@@ -1,0 +1,44 @@
+html {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    background-color: lightgray;
+}
+header {
+    margin-top: 50px;
+    font-weight: bold;
+}
+body {
+    text-align: center;
+}
+
+#content {
+    margin-top: 150px;
+}
+
+#ly_sales {
+    padding: 1px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+table {
+    margin: 0 auto;
+    border: 1px solid black;
+    padding: 2px;
+    width: 20%;
+    height: 50%;
+    background-color: white;
+}
+
+tr, th, td {
+    border: 1px solid black;
+}
+
+th {
+    width: 50%;
+}
+
+td {
+    height: 10px;
+    width: 30%;
+}
