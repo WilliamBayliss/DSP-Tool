@@ -28,7 +28,7 @@ sales = parseInt(salesFigure || 0, 10);
         let totalIncrease = sales * 0.05;
         let newGoal = sales + totalIncrease;
 
-        let morningGoal = newGoal * 0.1;
+        let morningGoal = newGoal * 0.15;
         return morningGoal.toFixed(2);
     };
 
