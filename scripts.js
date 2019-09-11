@@ -28,7 +28,7 @@ sales = parseInt(salesFigure || 0, 10);
         let totalIncrease = sales * 0.05;
         let newGoal = sales + totalIncrease;
 
-        let morningGoal = newGoal * 0.2;
+        let morningGoal = newGoal * 0.1;
         return morningGoal.toFixed(2);
     };
 
@@ -38,7 +38,7 @@ sales = parseInt(salesFigure || 0, 10);
         let newGoal = sales + totalIncrease;
 
 
-        let noonGoal = newGoal * 0.5;
+        let noonGoal = newGoal * 0.55;
         return noonGoal.toFixed(2);
     };
 
@@ -48,7 +48,7 @@ sales = parseInt(salesFigure || 0, 10);
         let newGoal = sales + totalIncrease;
 
 
-        let nightGoal = newGoal * 0.3;
+        let nightGoal = newGoal * 0.35;
         return nightGoal.toFixed(2);
     };
 
