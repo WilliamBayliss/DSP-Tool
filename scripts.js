@@ -15,7 +15,7 @@ function runCalculations() {
 let salesFigure = document.getElementById('ly_sales').value;
 
 
-sales = parseInt(salesFigure || 0, 10);
+sales = parseFloat(salesFigure);
 // -----------FUNCTIONS FOR CALCULATIONS------------------------
     function salesGoal() {
         let totalIncrease = sales * 0.05;
@@ -28,7 +28,7 @@ sales = parseInt(salesFigure || 0, 10);
         let totalIncrease = sales * 0.05;
         let newGoal = sales + totalIncrease;
 
-        let morningGoal = newGoal * 0.15;
+        let morningGoal = newGoal * 0.1;
         return morningGoal.toFixed(2);
     };
 
