@@ -4,7 +4,7 @@ html {
     background-color: rgb(240, 240, 240);
 }
 header {
-    margin-top: 50px;
+    margin-top: 20px;
     font-weight: bold;
 }
 body {
@@ -16,7 +16,7 @@ p {
 }
 
 #content {
-    margin-top: 150px;
+    margin-top: 50px;
 }
 
 #ly_sales {
